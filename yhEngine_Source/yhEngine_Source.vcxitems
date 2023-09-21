@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{22841539-11b2-4cbd-ab3c-ac3fc457d8a8}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CommonInclude.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhMeshRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhConstantBuffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhSceneManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhApplication.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhCanvas.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhEntity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhEnum.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhGameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhGraphics.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhGraphicsDevice.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhGraphicsDevice_DX11.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhHeader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhLayer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhMaterial.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhmath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhMesh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhResource.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhResourceManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhScene.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhScript.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhShader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhTime.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)yhTransform.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhMeshRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhConstantBuffer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhSceneManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhLayer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhMesh.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhResourceManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhScene.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhScript.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhTime.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhApplication.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhEntity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhGameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhGraphicsDevice_DX11.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhInput.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhMaterial.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhmath.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhResource.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhShader.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)yhTransform.cpp" />
+  </ItemGroup>
+</Project>

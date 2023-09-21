@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{26840bfb-3d72-4b66-9ce0-6356aa374b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{a9a9fc49-55d5-4d08-8ef1-5c0c1fcc09bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{c7cd4c86-2775-46c4-a40d-dedb0728e125}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="yhPlayScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="yhLoadScene.h" />
+    <ClInclude Include="yhPlayerScript.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="yhPlayScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="yhPlayerScript.cpp" />
+  </ItemGroup>
+</Project>
